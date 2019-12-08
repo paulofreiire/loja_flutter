@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654927815763",
+    "firebase_url": "https://lolja-cecf0.firebaseio.com",
+    "project_id": "lolja-cecf0",
+    "storage_bucket": "lolja-cecf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654927815763:android:a9fd5d97e17034076312a6",
+        "android_client_info": {
+          "package_name": "paulofreire.lojavirtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654927815763-ot649mb92vj6qqm5hqo0mavjr7vkc85t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "paulofreire.lojavirtual",
+            "certificate_hash": "61c536521e465aea1e4e2385cea57d12dfcbdddf"
+          }
+        },
+        {
+          "client_id": "654927815763-bm16ed34ruksnpc3jul5ubd2bge8igib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKoH1csxGQUD0sMY7TZSfP2Hr3CpiFVW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654927815763-bm16ed34ruksnpc3jul5ubd2bge8igib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
