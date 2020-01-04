@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/paulo/AndroidStudioProjects/lojavirtual/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
+            "outputFile": "C:\\Users\\paulo\\Desktop\\lojavirtual\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
             "map": [
                 {
-                    "source": "/home/paulo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/59d3956b1ccf8ca0699784a7060807f9/res/values-hy/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,546,678,784,997,1131,1284,1422,1648,1754,1953,2087,2308,2500,2591,2684",
-                        "endColumns": "103,196,131,105,212,133,152,137,225,105,198,133,220,191,90,92,106",
-                        "endOffsets": "348,545,677,783,996,1130,1283,1421,1647,1753,1952,2086,2307,2499,2590,2683,2790"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,410,546,656,869,1007,1164,1516,1742,1852,2051,2189,2410,2606,2701,2798",
-                        "endColumns": "107,196,135,109,212,137,156,141,225,109,198,137,220,195,94,96,110",
-                        "endOffsets": "208,405,541,651,864,1002,1159,1301,1737,1847,2046,2184,2405,2601,2696,2793,2904"
-                    }
-                },
-                {
-                    "source": "/home/paulo/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.2.0.aar/17e4a2740b66c82b531a5d9b445ab151/res/values-hy/values.xml",
+                    "source": "C:\\Users\\paulo\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-play-services-basement-17.0.0.aar\\811b3855eb683af8bd4ecf9c33718581\\res\\values-hy\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/paulo/.gradle/caches/transforms-1/files-1.1/jetified-firebase-messaging-18.0.0.aar/58a6418b9a5b472a221fce5982f2d63f/res/values-hy/values.xml",
+                    "source": "C:\\Users\\paulo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.0.0.aar\\bd2f26d0ea4f975d440ef7d8a3161e95\\res\\values-hy\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,546,678,784,997,1131,1284,1422,1648,1754,1953,2087,2308,2500,2591,2684",
+                        "endColumns": "103,196,131,105,212,133,152,137,225,105,198,133,220,191,90,92,106",
+                        "endOffsets": "348,545,677,783,996,1130,1283,1421,1647,1753,1952,2086,2307,2499,2590,2683,2790"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,410,546,656,869,1007,1164,1516,1742,1852,2051,2189,2410,2606,2701,2798",
+                        "endColumns": "107,196,135,109,212,137,156,141,225,109,198,137,220,195,94,96,110",
+                        "endOffsets": "208,405,541,651,864,1002,1159,1301,1737,1847,2046,2184,2405,2601,2696,2793,2904"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\paulo\\.gradle\\caches\\transforms-1\\files-1.1\\jetified-firebase-messaging-20.0.0.aar\\d8a5e7097ad9fb9a362bba2e6a070fc9\\res\\values-hy\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/paulo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fe8c3a9a4c0fec8c74bf35cc2d9867a3/res/values-hy/values-hy.xml",
+                    "source": "C:\\Users\\paulo\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\65aea0491c3808b59a87492112f31767\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

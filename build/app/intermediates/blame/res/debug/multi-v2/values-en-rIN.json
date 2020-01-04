@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/paulo/AndroidStudioProjects/lojavirtual/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "C:\\Users\\paulo\\Desktop\\lojavirtual\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
-                    "source": "/home/paulo/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/fe8c3a9a4c0fec8c74bf35cc2d9867a3/res/values-en-rIN/values-en-rIN.xml",
+                    "source": "C:\\Users\\paulo\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.0.0.aar\\65aea0491c3808b59a87492112f31767\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
