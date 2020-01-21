@@ -60,6 +60,25 @@ class _ProductScreenState extends State<ProductScreen> {
                     fontWeight: FontWeight.bold,
                     color: primaryColor,
                   ),
+                ),
+                SizedBox(
+                  height: 16,
+                ),
+                Text(
+                  "Tamanho",
+                  style: TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+                SizedBox(
+                  height: 34,
+                  child: GridView(
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 1,
+                      mainAxisSpacing: 8,
+                    ),
+                  ),
                 )
               ],
             ),

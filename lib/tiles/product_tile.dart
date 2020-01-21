@@ -11,8 +11,9 @@ class ProductTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: (){
-        Navigator.of(context).push(MaterialPageRoute(builder: (context) => ProductScreen(product)));
+      onTap: () {
+        Navigator.of(context).push(
+            MaterialPageRoute(builder: (context) => ProductScreen(product)));
       },
       child: Card(
         child: type == "grid"
@@ -43,7 +44,7 @@ class ProductTile extends StatelessWidget {
                               fontSize: 17,
                               fontWeight: FontWeight.bold,
                             ),
-                          )
+                          ),
                         ],
                       ),
                     ),
