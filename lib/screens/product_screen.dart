@@ -83,7 +83,7 @@ class _ProductScreenState extends State<ProductScreen> {
                         childAspectRatio: 0.5),
                     children: product.sizes.map((s) {
                       return GestureDetector(
-                        onTap: (){
+                        onTap: () {
                           setState(() {
                             size = s;
                           });
@@ -92,7 +92,8 @@ class _ProductScreenState extends State<ProductScreen> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(4)),
                             border: Border.all(
-                              color: size == s ? primaryColor : Colors.grey[500],
+                              color:
+                                  size == s ? primaryColor : Colors.grey[500],
                               width: 2,
                             ),
                           ),
@@ -103,6 +104,30 @@ class _ProductScreenState extends State<ProductScreen> {
                       );
                     }).toList(),
                   ),
+                ),
+                SizedBox(height: 16),
+                SizedBox(
+                  height: 44,
+                  child: RaisedButton(
+                    onPressed: size != null ? () {} : null,
+                    child: Text(
+                      "Adicionar ao Carrinho",
+                      style: TextStyle(fontSize: 18),
+                    ),
+                    color: primaryColor,
+                    textColor: Colors.white,
+                  ),
+                ),
+                SizedBox(
+                  height: 16,
+                ),
+                Text(
+                  "Descrição",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+                ),
+                Text(
+                  product.description,
+                  style: TextStyle(fontSize: 16),
                 )
               ],
             ),
