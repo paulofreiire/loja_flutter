@@ -1,29 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:lojavirtual/screens/signup_screen.dart';
 
-class LoginScreen extends StatelessWidget {
-
-  final _formKey = GlobalKey<FormState>();
-
+class SignUpScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final _formKey = GlobalKey<FormState>();
     return Scaffold(
       appBar: AppBar(
-        title: Text("Entrar"),
+        title: Text("Criar conta"),
         centerTitle: true,
-        actions: <Widget>[
-          FlatButton(
-            child: Text(
-              "CRAR CONTA",
-              style: TextStyle(fontSize: 15),
-            ),
-            textColor: Colors.white,
-            onPressed: () {
-              Navigator.of(context).push(
-                  MaterialPageRoute(builder: (context) => SignUpScreen()));
-            },
-          )
-        ],
       ),
       body: Form(
         key: _formKey,
@@ -40,38 +24,38 @@ class LoginScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             TextFormField(
+              decoration: InputDecoration(hintText: "Nome completo"),
+              validator: (text) {
+                if (text.isEmpty) return "Nome inválido";
+              },
+            ),
+            SizedBox(height: 16),
+            TextFormField(
               decoration: InputDecoration(hintText: "Senha"),
               obscureText: true,
               validator: (text) {
                 if (text.isEmpty || text.length < 6) return "Senha inválida";
               },
             ),
-            Align(
-              alignment: Alignment.centerRight,
-              child: FlatButton(
-                onPressed: () {},
-                child: Text(
-                  "Esquecinha minha senha",
-                  textAlign: TextAlign.right,
-                ),
-                padding: EdgeInsets.zero,
-              ),
-            ),
             SizedBox(
               height: 16,
             ),
-
+            TextFormField(
+              decoration: InputDecoration(hintText: "Endereço"),
+              validator: (text) {
+                if (text.isEmpty) return "Endereço inválido";
+              },
+            ),
+            SizedBox(height: 16),
             SizedBox(
               height: 44,
               child: RaisedButton(
                 child: Text(
-                  "Entrar",
+                  "Registrar",
                   style: TextStyle(fontSize: 18),
                 ),
                 textColor: Colors.white,
-                color: Theme
-                    .of(context)
-                    .primaryColor,
+                color: Theme.of(context).primaryColor,
                 onPressed: () {
                   if (_formKey.currentState.validate()) {}
                 },

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lojavirtual/screens/login_screen.dart';
 import 'package:lojavirtual/tiles/drawer_tile.dart';
 
 class CustomDrawer extends StatelessWidget {
@@ -53,7 +54,9 @@ class CustomDrawer extends StatelessWidget {
                             child: Text("Entre ou Cadasatre-se >",
                                 style: TextStyle(
                                     color: Theme.of(context).primaryColor)),
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginScreen()));
+                            },
                           ),
                         ],
                       ),
