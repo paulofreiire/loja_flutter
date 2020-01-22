@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -23,14 +21,18 @@ class UserModel extends Model {
     _auth
         .createUserWithEmailAndPassword(
             email: userData["email"], password: pass)
-        .then((user) {
-      firebaseUser = user as FirebaseUser;
+        .then((auth) async {
+
+      firebaseUser = auth.user;
+
+      await _saveUserData(userData);
 
       onSucecess();
       isLoading = false;
       notifyListeners();
     }).catchError((e) {
       onFail();
+      print(e);
       isLoading = false;
       notifyListeners();
     });
@@ -50,8 +52,11 @@ class UserModel extends Model {
 
   bool isLoggedIn() {}
 
-  Future<Null> _saveUserData(Map<String, dynamic> userData){
+  Future<Null> _saveUserData(Map<String, dynamic> userData) {
     this.userData = userData;
-    Firestore.instance.collection("users").document(firebaseUser.uid).setData(userData);
+    Firestore.instance
+        .collection("users")
+        .document(firebaseUser.uid)
+        .setData(userData);
   }
 }

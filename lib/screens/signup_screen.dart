@@ -103,7 +103,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
     );
   }
 
-  void _onSuccess() {}
+  void _onSuccess() {
+    print("teste");
+  }
 
   void _onFail() {}
 }
