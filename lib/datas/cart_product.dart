@@ -13,6 +13,7 @@ class CartProduct {
     category = documentSnapshot.data["category"];
     idProduct = documentSnapshot.data["idProduct"];
     size = documentSnapshot.data["size"];
+    quantity = documentSnapshot.data["quantity"];
   }
   Map<String, dynamic> toMap(){
     return {

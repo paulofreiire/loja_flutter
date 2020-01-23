@@ -79,7 +79,6 @@ class UserModel extends Model {
   }
 
   bool isLoggedIn() {
-    print(firebaseUser);
     return firebaseUser != null;
   }
 
