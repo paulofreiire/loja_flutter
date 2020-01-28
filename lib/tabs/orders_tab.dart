@@ -22,7 +22,7 @@ class OrdersTab extends StatelessWidget {
             return ListView(
               children: snapshot.data.documents
                   .map((doc) => OrderTile(doc.documentID))
-                  .toList(),
+                  .toList().reversed.toList(),
             );
           }
         },
