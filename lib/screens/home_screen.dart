@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lojavirtual/tabs/home_tab.dart';
 import 'package:lojavirtual/tabs/orders_tab.dart';
-import 'package:lojavirtual/tabs/plcaes_tab.dart';
+import 'package:lojavirtual/tabs/places_tab.dart';
 import 'package:lojavirtual/tabs/produtcs_tab.dart';
 import 'package:lojavirtual/widgets/cart_button.dart';
 import 'package:lojavirtual/widgets/custom_drawer.dart';
